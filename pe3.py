@@ -3,10 +3,6 @@ import datetime
 
 # Caesar Cipher Functions
 def encode(input_text, shift):
-    """
-    Encodes text using Caesar cipher with given shift.
-    Returns tuple: (alphabet_list, encoded_text)
-    """
     alphabet = list(string.ascii_lowercase)
     encoded_text = ""
     
@@ -25,10 +21,6 @@ def encode(input_text, shift):
     return (alphabet, encoded_text)
 
 def decode(input_text, shift):
-    """
-    Decodes text using Caesar cipher with given shift.
-    Returns decoded text.
-    """
     alphabet = list(string.ascii_lowercase)
     decoded_text = ""
     
