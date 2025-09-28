@@ -5,7 +5,8 @@ import datetime
 def encode(input_text, shift):
     alphabet = list(string.ascii_lowercase)
     encoded_text = ""
-    
+   
+   
     for char in input_text:
         if char.lower() in alphabet:
             # Finding the index of the character in alphabet
